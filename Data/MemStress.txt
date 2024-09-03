@@ -1,0 +1,21 @@
+
+ PRINT ELEMENT TABLE ITEMS PER ELEMENT
+ 
+  ***** POST1 ELEMENT TABLE LISTING *****                                      
+ 
+    STAT     CURRENT 
+    ELEM     MEMSTRES
+       1     4000000.
+       2     4000000.
+       3   -25000000.
+       4   0.0000     
+       5   -25000000.
+
+ MINIMUM VALUES
+ ELEM           3
+ VALUE  -0.25000E+008
+
+ MAXIMUM VALUES
+ ELEM           1
+ VALUE   0.40000E+007
+

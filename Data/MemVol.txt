@@ -1,0 +1,21 @@
+
+ PRINT ELEMENT TABLE ITEMS PER ELEMENT
+ 
+  ***** POST1 ELEMENT TABLE LISTING *****                                      
+ 
+    STAT     CURRENT 
+    ELEM     MEMVOL  
+       1  0.25000E-003
+       2  0.25000E-003
+       3  0.62500E-004
+       4  0.37500E-004
+       5  0.62500E-004
+
+ MINIMUM VALUES
+ ELEM           4
+ VALUE   0.37500E-004
+
+ MAXIMUM VALUES
+ ELEM           1
+ VALUE   0.25000E-003
+

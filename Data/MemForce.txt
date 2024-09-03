@@ -1,0 +1,21 @@
+
+ PRINT ELEMENT TABLE ITEMS PER ELEMENT
+ 
+  ***** POST1 ELEMENT TABLE LISTING *****                                      
+ 
+    STAT     CURRENT 
+    ELEM     MEMFORCE
+       1   1000.0     
+       2   1000.0     
+       3  -1250.0     
+       4   0.0000     
+       5  -1250.0     
+
+ MINIMUM VALUES
+ ELEM           3
+ VALUE   -1250.0     
+
+ MAXIMUM VALUES
+ ELEM           1
+ VALUE    1000.0     
+
