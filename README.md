@@ -1,3 +1,3 @@
-# AERE 4210 Lab Report Template
+# AERE 4210 Lab Assignment 01
 
-Template for AERE 4210 lab reports.
+AERE 4210 Lab Assignment 01 by Katelyn Lorenz and Matthew Mehrtens.
