@@ -1,3 +1,17 @@
 \chapter{Introduction}\label{cp:introduction}
 
-Ansys is a finite element solver that can be used for many types of modeling. In this lab assignment, Ansys was introduced as a way of performing structural analysis for a simply supported truss. The objective was to complete calculations for the displacement of each node, the reaction forces at nodes \numlist{1;3}, and the forces, stresses, and volume in each element. In comparison to solving by hand, this software can provide a much faster and extremely accurate way of solving various structural problems. 
+Ansys is a finite element solver used to computationally analyze structures. In this lab, Ansys was used to perform a structural analysis on a simply-supported truss, shown for reference in \autoref{fig:truss} with material properties given in \autoref{tab:truss}. The objective was to find the displacement at each node; the reaction forces at nodes \numlist{1;3}; and the forces, stresses, and volume in each member.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/given_figure.png}
+    \caption[Truss given in the lab manual]{Truss given in the lab manual \citep{runnels2024}.}
+    \label{fig:truss}
+\end{figure}
+
+\begin{table}[htpb]
+    \centering
+    \caption[Given material properties]{The cross-sectional area \gls{A} and Young's modulus \gls{E} for each member in \autoref{fig:truss} \citep{runnels2024}.}
+    \input{Tables/truss}
+    \label{tab:truss}
+\end{table}

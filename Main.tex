@@ -6,17 +6,16 @@
 \secondauthor{Katelyn Lorenz}
 
 \supervisor{Dr. Brandon Runnels}
-\supervisormail{brunnels@iastate.edu}
 
 % Report Title & Subtitle
-\title{Lab Assignment 01}
-\subtitle{AERE 4210 - Lab 01}
+\title{Introduction to Ansys}
+\subtitle{Lab Assignment 01}
 
 % Affiliations
 \university{Iowa State University}
 \degree{Aerospace Engineering}
 \school{College of Engineering}
-\course{Aerodynamics and Propulsion Laboratory}
+\course{AERE 4210 Advanced Flight Structures}
 
 % Locale & Date
 \date{Ames, \monthname[\month] \number\year}
@@ -31,8 +30,11 @@
 % Covers
 \include{Covers/00-Cover}
 
+% Roman numeration
+\pagenumbering{roman}
+
 % Abstract
-\include{Chapters/00-Abstract}
+% \include{Chapters/00-Abstract}
 
 % List of contents, figures, and tables
 \tableofcontents
@@ -41,7 +43,7 @@
 
 % Print Glossary & Acronym
 \printglossary
-\printglossary[type=\acronymtype]
+% \printglossary[type=\acronymtype]
 
 % Arabic numeration
 \pagenumbering{arabic}
@@ -51,14 +53,13 @@
 \include{Chapters/02-Methodology}
 \include{Chapters/03-Results}
 \include{Chapters/04-Discussion}
-\include{Chapters/05-Conclusion}
+% \include{Chapters/05-Conclusion}
 
 % Bibliography
-% \printbibliography
+\printbibliography
 
 % Appendices
-% \appendix
-% \input{Covers/01-Appendices}
-% \input{Chapters/Appendices/00-AppendixA}
+\appendix
+\input{Chapters/Appendices/00-AppendixA}
 
 \end{document}

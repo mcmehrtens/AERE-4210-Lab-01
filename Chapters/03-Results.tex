@@ -1,8 +1,27 @@
 \chapter{Results}\label{cp:results}
 
+\autoref{fig:deformed_truss} shows the deformed truss (colored) over the original truss (black). The supports and the applied point load are not shown. \autoref{tab:nodes} lists the displacement \gls{u} and force \gls{f} at each node. \autoref{tab:members} lists the internal stress \gls{sigma}, force \gls{f}, and \gls{v} for each member in the truss. The node and member numbers in \autoref{tab:nodes} and \autoref{tab:members} correspond to the nodes identified in \autoref{fig:deformed_truss}.
+
+The raw text files output by Ansys which these tables were derived from can be found in \autoref{sec:ansys_output}.
+
+\begin{figure}[htpb]
+    \centering
+    \includegraphics[width=\linewidth]{Figures/deformed_shape.png}
+    \caption[The original and deformed truss]{The original truss (black outline) and deformed truss (colored outline).}
+    \label{fig:deformed_truss}
+\end{figure}
+
 \begin{table}[htpb]
     \centering
-    \caption[Member solutions]{The stress \gls{sigma}, force \gls{f}, and volume \gls{v} for each individual member.}
+    \caption[Nodal solutions]{The displacement \gls{u} and force \gls{f} at each node.}
+    \input{Tables/nodes}
+    \label{tab:nodes}
+\end{table}
+
+\begin{table}[htpb]
+    \centering
+    \caption[Member solutions]{The internal stress \gls{sigma}, force \gls{f}, and volume \gls{v} for each individual member.}
     \input{Tables/members}
     \label{tab:members}
+    \vspace*{5in}
 \end{table}
